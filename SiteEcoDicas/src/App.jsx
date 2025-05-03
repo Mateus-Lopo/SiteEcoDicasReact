@@ -27,9 +27,17 @@ function App() {
           <EcoCard 
             id="1"
             titulo="Como economizar água"
-            imagem="images/economiaAgua.jpeg"
+            imagem={"/images/economiaAgua.jpeg"}
             descricao="Aprende a economizar água com essa dica simples."
           />
+
+          <EcoCard 
+            id="2"
+            titulo="Como reduzir o uso de plástico"
+            imagem={"/images/reduzirPlastico.jpeg"}
+            descricao="Aprende a reduzir o uso de plástico com essa dica simples."
+          />
+          
         </div>
       </main>
     </>

@@ -1,5 +1,7 @@
 import { useParams } from "react-router-dom";
 
+
+
 function EcoPage() {
     const { id } = useParams();
 

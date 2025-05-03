@@ -26,3 +26,6 @@
     border-radius: 8px;
     text-decoration: none;
 }
+.eco-botao:hover {
+    background-color: #45a049;
+}

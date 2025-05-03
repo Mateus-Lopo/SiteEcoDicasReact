@@ -5,7 +5,7 @@ import './ecoCard.css';
 function EcoCard({ id, titulo, imagem, descricao }) {
     return (
         <div className="eco-card">
-            <img src="{imagem}" alt="{titulo}" className="eco-img" />
+            <img src={imagem} alt={titulo} className="eco-img" />
             <div className="eco-info">
                 <h3>{titulo}</h3>
                 <p>{descricao}</p>
